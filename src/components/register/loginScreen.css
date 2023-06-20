@@ -1,0 +1,111 @@
+.loginScreen {
+    color: #fff;
+ }
+
+.loginScreen__background {
+    height: 100vh;
+    position: relative;
+    background: 
+    linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0%,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    ),
+    /* linear-gradient(to top, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 107%), 
+        linear-gradient(to bottom, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%),  */
+        url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.loginScreen__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 2rem;
+    z-index: 1;
+}
+.left img {
+    height: 2.7rem;
+    margin-top: 1rem;
+}
+.login_selectLanguage{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    padding: 0.1rem 0.5rem;
+    background: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    position: relative;
+}
+.logo__global {
+    margin-bottom: 5px;
+}
+.select__option {
+    background: #000;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 0.0rem 0.2rem;
+}
+.btn-danger {
+    padding: 5px 20px;
+    background-color: #e50914;
+    font-weight: 500;
+}
+.loginScreen__body {
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+.loginScreen__body > h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;  
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+}
+.loginScreen__body > h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.loginScreen__body > h4 {
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.loginScreen__input {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    height: 60px;
+}
+.loginScreen__input input {
+    flex: 9;
+    height: 100%;
+    border: none;
+    padding: 0 1rem;
+}
+.loginScreen__input button {
+    flex: 3;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #e50914;
+}

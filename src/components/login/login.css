@@ -1,0 +1,116 @@
+.signUpScreen__background {
+    height: 100vh;
+    position: relative;
+    background: 
+    linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0%,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    ),
+    url("https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;   
+}
+.login_logo {
+    margin-left: 2rem;
+}
+
+
+.signUpScreen {
+    max-width: 27rem;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,0.85);
+    color: white;
+}
+.signUpScreen > form {
+    display: flex;
+    flex-direction: column;
+}
+.signUpScreen > form > h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+ 
+.signUpScreen > form > .email_input >input {
+    outline-width: 0;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #222;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+} 
+.email_input {
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+.password_input {
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+.signUpScreen > form > .password_input >input {
+    outline-width: 0;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #222;
+    color: #fff;
+    height: 100%;
+    width: 85%;
+}
+.password_input > button {
+    font-size: 1rem;
+    color: #999;
+    background-color: #222;
+    cursor: pointer;
+    height: 100%;
+    width: 15%;
+    border: none;
+}
+
+
+.signUpScreen > form > button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 2px;
+    color: white;
+    background-color: #e50914;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.signUpScreen > form > span {
+    color: #999;
+}
+.signUpScreen > form > span > b {
+    color: #fff;
+}
+.signUpScreen > form > span > b:hover {
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+}
+.signUpScreen > form > small {
+    color: #999;
+}
+.signUpScreen > form > small > b {
+    color: #fff;
+}
+.signUpScreen > form > small > b:hover {
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+}
+
+.hr {
+   padding: 0;
+    margin: 0.7rem 0;
+}

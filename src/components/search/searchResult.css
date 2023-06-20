@@ -1,0 +1,62 @@
+.search__page {
+    background-color: #111;
+    padding-top: 5rem;
+    height: 100vh;
+}
+.pageTitle {
+    padding: 3rem;
+    color: #777;
+}
+.search__titles {
+    padding-right: 5rem;
+}
+.search__heading {
+    display: flex;
+    width: 100%;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+.search__title {
+    color: #777;
+    width: 12%;
+}
+.search__resultsTitle {
+    color: #fff;
+    margin-left: 0.5rem;
+    width: 88%;
+    display: flex;
+    justify-content: start;
+}
+.search__posters {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.joinDash_line {
+    color: #e05149;
+}
+.row__posterLarge {
+    margin-left: 0.3rem;
+    opacity: 0.7;
+}
+.row__posterLarge:hover {
+    opacity: 1;
+}
+
+
+.pageNotFound {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.5rem;
+}
+.bigText {
+    font-size: 7rem;
+    font-weight: 700;
+}
+.smallText {
+    font-size: 44px;
+}
+img{
+    height: 30rem;
+}

@@ -1,0 +1,95 @@
+.nav {
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 500;  
+    color: #ffffff;
+    padding: 1rem 2rem;
+    object-fit: contain;
+    justify-content: space-between;
+    background: linear-gradient(
+        rgba(0,0,0,0.8) 5%,
+        rgba(0,0,0,0.2) 50%,
+        rgba(0,0,0,0.05) 100%
+    );
+    /*  */
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    overflow: 1;
+}
+.navBlack {
+    background: #111;
+    color: #fff;
+}
+
+.left { 
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left span {
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+.left img {
+    height: 2.6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.right img {
+    height: 27px;
+    border-radius: 2px;
+}
+.right i {
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+    z-index: 1;
+}
+
+.right i {
+    cursor: pointer;
+}
+.right span {
+    cursor: pointer;
+}
+.navSearchInput {
+    width: 20rem;
+    display: none;
+    align-items: center;
+}
+.input {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: none;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    border-radius: 7px;
+    border-bottom: #e50149 1px solid;
+    display: flex;
+}
+.input::placeholder {
+    color: #fff;
+    font-weight: 200;
+}
+.fa-times {
+    right: 22rem;
+    top: 5rem;
+}
+.dropdown-menu {
+    background: #000;
+}
+.dropdown-item {
+    color: white;
+}

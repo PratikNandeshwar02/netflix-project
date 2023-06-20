@@ -1,0 +1,94 @@
+.profileScreen {
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+.profileScreenWhite {
+    color: black;
+    background-color: white;
+}
+.profileScreen__body {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    max-width: 40rem;
+}
+.profileScreen__body > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #282c2d;
+}
+.background__change {
+    font-weight: 800;
+    position: fixed;
+    right: 1.4rem;
+    top: 5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.profileScreen__info {
+    display: flex; 
+}
+.profileScreen__details {
+    margin-left: 0.5rem;
+    width: 100%;
+}
+.profileScreen__details > h2 {
+    background-color: gray;
+    padding: 1rem;
+    font-size: 1rem;
+    padding-left: 1.5rem   ;
+}
+.profileScreen__signOut {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background: #e50914;
+    font-weight: 600;
+    cursor: pointer;
+}
+.profileScreen__info > .profileImg > img {
+    height: 5rem;
+}
+.profileScreen__plans {
+    margin-top: 1.2rem;
+}
+.profileScreen__plans > h3 {
+    border-bottom: 2px solid #282c2d;
+    padding-bottom: 0.7rem;
+    font-weight: 700;
+}
+
+
+
+.plansScreen {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+.plansScreen:hover {
+    opacity: 1;
+}
+.btn {
+    border-radius: 3px;
+    font-size: 1rem;
+    font-size: 600;
+}
+.plansScreen__info > h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.plansScreen__info > h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
